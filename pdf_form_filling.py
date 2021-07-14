@@ -1,5 +1,4 @@
 import pdfrw
-from pdfrw.objects.pdfobject import PdfObject
 
 ANNOT_KEY = '/Annots'
 ANNOT_FIELD_KEY = '/T'
