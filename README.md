@@ -19,3 +19,6 @@ Requirements:
 3) `pip install opencv-python`
 
 To run: `python image_data_extraction.py`
+
+Example output:
+![2021-07-15 03_03_44-Command Prompt](https://user-images.githubusercontent.com/19281828/125678595-fe196763-5fae-49eb-b943-3938039a75cc.png)
