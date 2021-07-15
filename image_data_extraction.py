@@ -22,14 +22,14 @@ def extract_data(path_to_img):
             name = ''
             while len(name) == 0:
                 i += 1
-                name = text[i]
+                name = str(text[i])
 
         # Extract gender
-        if "Date Of Birth Sex" in item:
+        if "Sex" in item:
             gender = str(text[index+1].split()[-1])
         
         # Extract DOB
-        if "Date Of Birth Sex" in item:
+        if "Date Of Birth" in item:
             date_of_birth = str(text[index+1].split()[-2])
 
         # Extract country
