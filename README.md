@@ -14,8 +14,11 @@ To run: `python enhance_pdf_form_filling.py`
 Run `image_data_extraction.py` to print solution to the question. 
 
 Requirements:
-1) For Windows user, download and install Tesseract from https://github.com/UB-Mannheim/tesseract/wiki. Ensure download path is `C:\Program Files\Tesseract-OCR\tesseract.exe`. Else, have to manually edit Tesseract path in the code. For Mac and linux users, no need to download and also, remove Tesseract path from code.
+1) For Windows user, download and install Tesseract from https://github.com/UB-Mannheim/tesseract/wiki. Ensure download path is `C:\Program Files\Tesseract-OCR\tesseract.exe`. Else, have to manually edit Tesseract path in the code. For Mac and Linux users, no need to download and also, remove Tesseract path from code.
 2) `pip install pytesseract`
 3) `pip install opencv-python`
 
 To run: `python image_data_extraction.py`
+
+Example output:
+![2021-07-15 03_03_44-Command Prompt](https://user-images.githubusercontent.com/19281828/125678595-fe196763-5fae-49eb-b943-3938039a75cc.png)
